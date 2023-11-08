@@ -1,43 +1,73 @@
 
 .head{
     height: 80px;
-    background-color: rgb(56, 52, 52);
+    background-color: rgb(35, 69, 89);
+}
+
+.credit{
+    min-height: 50px;
+    background-color:  rgb(35, 69, 89);
+}
+
+.nav-link{
+    color: white;
 }
 
 .jumbo{
     height: 300px;
-    background-color: green;
+    background-color: #4db68a;
 }
 
-.col-2 a{
+.about{
+    background-color: #4db68a;;
+}
+
+.info{
+    background-color: rgb(60, 95, 115);
+}
+
+
+.col-2 .hamb{
     color: gray;
     border: 1px solid grey;
     padding: 3px;
 }
 
+.brown{
+    background-color: brown;
+}
+
+.azure{
+    background-color: #76baba;
+}
+
+.black{
+    background-color: black;
+}
+
+.azure_dark{
+    background-color: #4c4ca7;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.rose_dark{
+    background-color: #a38a9a;
+}
+
+
 /* DEBUG RULES */
 .box{
-    background-color: rgb(63, 186, 128);
     height: 50px;
     border: 1px solid white;
 }
 
-.about{
-    height: 300px;
-    background-color: rgb(63, 186, 128);
-}
 
 .contact_me{
     height: 300px;
     background-color: rgb(153, 222, 190);
 }
 
-.info{
-    height: 100px;
-    background-color: rgba(0, 0, 0, 0.829);
-}
 
-.credit{
-    height: 100px;
-    background-color: aqua;
-}

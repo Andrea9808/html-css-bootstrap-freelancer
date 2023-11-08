@@ -1,7 +1,7 @@
 
 .head{
     height: 80px;
-    background-color: black;
+    background-color: rgb(56, 52, 52);
 }
 
 .jumbo{
@@ -9,9 +9,17 @@
     background-color: green;
 }
 
+.col-2 a{
+    color: gray;
+    border: 1px solid grey;
+    padding: 3px;
+}
+
 /* DEBUG RULES */
-.portfolio_title{
+.box{
     background-color: rgb(63, 186, 128);
+    height: 50px;
+    border: 1px solid white;
 }
 
 .about{
@@ -22,4 +30,14 @@
 .contact_me{
     height: 300px;
     background-color: rgb(153, 222, 190);
+}
+
+.info{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.credit{
+    height: 100px;
+    background-color: aqua;
 }

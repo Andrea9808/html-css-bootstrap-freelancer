@@ -63,6 +63,7 @@ h1{
 }
 
 .about{
+    height: 400px;
     background-color: #4db68a;;
 }
 
@@ -109,6 +110,11 @@ address,.web{
     margin: 5px;
     padding: 1px;
     width: 90px;
+}
+
+.black{
+    color: black;
+    background-color: black;
 }
 
 /* DEBUG RULES */

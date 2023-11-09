@@ -14,6 +14,8 @@
 
     <!-- NAVBAR -->
 
+    <!-- NAVBAR COMPONENTE DI BOOTSTRAP -->
+
     <header>
         <div class="container">
             <nav class="navbar_head navbar navbar-expand-md navbar-light ">
@@ -199,29 +201,58 @@
         <section class="contact_me">
             <div class="container">
                 <div class="container_fluid">
-                    <h2>CONTACT ME</h2>
-                        <!-- STELLA -->
-                    <div>
-                        <!-- Name -->
+                    <div class="text-dark text-center pt-4">
+                        <h3><strong>CONTACT ME</strong></h3>
                     </div>
-                    <div>
-                        <!-- email -->
-                    </div>
-                    <div>
-                        <!-- phone number -->
-                    </div>
-                    <div>
-                        <!-- message -->
+                    <div class="star text-dark mb-3 ">
+                        <div class="line black">
+
+                        </div>
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <div class="line black">
+                        
+                        </div>
                     </div>
 
-                    <a href="#">Send</a>
+
+<!-- FORM COMPONENTE BOOTSTRAP -->
+
+                            
+                    <form>
+                        <div class="input_form mb-3">
+                            <label for="name">Nome*</label>
+                            <input type="text" class="form-control border-light" required>
+                        </div>
+                        <div class="input_form mb-3">
+                            <label for="surname">Cognome*</label>
+                            <input type="text" class="form-control border-light">
+                        </div>
+                        <div class="input_form mb-3">
+                            <label for="Email">Email</label>
+                            <input type="email" class="form-control border-light" >
+                        </div>
+                        <div class="input_form mb-3">
+                            <label for="phonenumber">Telefono</label>
+                            <input type="text" required class="form-control border-light">
+                        </div>
+                        <div class="msg mb-3">
+                            <label for="text">Messaggio</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <div class="send_form pb-3">
+                            <button type="submit" class="btn btn-primary mb-2">Invia</button>
+                        </div> 
+                    </form>
                 </div>
-
             </div>
-
-
         </section>
     </main>
+
+
+    <!-- FOOTER -->
+
 
     <footer>
 
